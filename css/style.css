@@ -230,8 +230,13 @@ img {
 
 .produtos_icone{
     background: #000;
-    padding: 20px;    
+    padding: 20px;        
 }
+
+.produtos_icone img{
+    margin : 0 auto;
+}
+
 
 .call{
     text-align: center;
