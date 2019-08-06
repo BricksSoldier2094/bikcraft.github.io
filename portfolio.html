@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/portfolio.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsivo.min.css">
 </head>
 <body>    
@@ -46,12 +46,32 @@
 
     <!--Section de citação-->
     <section class="container">                  
-        <blockquote class=" quote-externo quote_clientes">
-            <p>"No mundo atual, a contínua expansão de nossa atividade compre um papel essencial na formulação da nossa gestão novadora da qual fazemos parte."</p>
-            <cite>
-                Bárbara Moss
-            </cite>
-        </blockquote>                  
+        <ul class="rslides">
+            <li>
+                <blockquote class=" quote-externo quote_clientes">
+                    <p>"No mundo atual, a contínua expansão de nossa atividade compre um papel essencial na formulação da nossa gestão novadora da qual fazemos parte."</p>
+                    <cite>
+                        Bárbara Moss
+                    </cite>
+                </blockquote>   
+            </li>
+            <li>
+                <blockquote class=" quote-externo quote_clientes">
+                    <p>"No mundo atual, a contínua expansão de nossa atividade compre um papel essencial na formulação da nossa gestão novadora da qual fazemos parte."</p>
+                    <cite>
+                        Bárbara
+                    </cite>
+                </blockquote>   
+            </li>
+            <li>
+                <blockquote class=" quote-externo quote_clientes">
+                    <p>"No mundo atual, a contínua expansão de nossa atividade compre um papel essencial na formulação da nossa gestão novadora da qual fazemos parte."</p>
+                    <cite>
+                        Moss
+                    </cite>
+                </blockquote>   
+            </li>
+        </ul>               
     </section>
     
 
@@ -142,5 +162,14 @@
     <script src="js\plugins.js"></script>
     <script src="js\main.js"></script>
     
+
+    <!--Scripts-->
+
+    <script>
+    $(function() {
+        $(".rslides").responsiveSlides();
+    });
+    </script>
+
 </body>
 </html>
