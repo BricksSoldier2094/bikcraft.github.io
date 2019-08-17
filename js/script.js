@@ -1,3 +1,5 @@
+document.documentElement.classList.add("js")
+
 if(window.SimpleSlide){
     new SimpleSlide({
         slide: "quote", // nome do atributo data-slide="principal"    
